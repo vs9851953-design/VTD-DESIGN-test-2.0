@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto — VTD DESIGN</title>
+
+  <style>
+    :root{
+      --black:#080808;
+      --white:#f5f5f5;
+      --muted:#8b8b8b;
+      --line:#242424;
+      --orange:#ff5a00;
+    }
+
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      background:var(--black);
+      color:var(--white);
+      font-family:Arial,Helvetica,sans-serif;
+    }
+
+    a{color:inherit;text-decoration:none}
+    img{max-width:100%}
+
+    .wrap{
+      width:min(1120px, calc(100% - 64px));
+      margin:0 auto;
+    }
+
+    .nav{
+      position:sticky;
+      top:0;
+      z-index:20;
+      height:72px;
+      display:flex;
+      align-items:center;
+      background:rgba(8,8,8,.88);
+      backdrop-filter:blur(14px);
+      border-bottom:1px solid var(--line);
+    }
+
+    .nav .wrap{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+    }
+
+    .nav-logo{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      font-weight:800;
+      letter-spacing:-.03em;
+    }
+
+    .nav-mark{
+      width:30px;
+      height:30px;
+      display:grid;
+      place-items:center;
+      background:var(--orange);
+      color:#111;
+      border-radius:5px;
+      font-weight:900;
+    }
+
+    .nav-back{
+      color:#aaa;
+      font-size:13px;
+      text-transform:uppercase;
+      letter-spacing:.08em;
+      transition:color .25s ease;
+    }
+
+    .nav-back:hover{color:var(--orange)}
+
+    .p-hero{
+      padding:100px 0 48px;
+    }
+
+    .p-meta{
+      color:var(--orange);
+      font-size:12px;
+      font-weight:700;
+      text-transform:uppercase;
+      letter-spacing:.16em;
+      margin-bottom:18px;
+    }
+
+    .p-hero h1{
+      margin:0;
+      font-size:clamp(42px,7vw,92px);
+      line-height:.95;
+      letter-spacing:-.055em;
+      font-weight:800;
+      max-width:1000px;
+    }
+
+    .p-info{
+      display:flex;
+      gap:40px;
+      margin-top:34px;
+      padding-top:22px;
+      border-top:1px solid var(--line);
+      color:#aaa;
+      font-size:13px;
+    }
+
+    .p-cover{
+      overflow:hidden;
+      margin-top:42px;
+      background:#111;
+      border-radius:4px;
+    }
+
+    .p-cover img{
+      display:block;
+      width:100%;
+      height:auto;
+      opacity:0;
+      transform:scale(1.035);
+      animation:coverIn .9s cubic-bezier(.2,.7,.2,1) forwards;
+    }
+
+    @keyframes coverIn{
+      to{opacity:1;transform:scale(1)}
+    }
+
+    .p-body{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:70px;
+      padding:58px 0 30px;
+      border-bottom:1px solid var(--line);
+    }
+
+    .p-desc-title{
+      display:block;
+      color:#666;
+      font-size:10px;
+      text-transform:uppercase;
+      letter-spacing:.16em;
+      margin-bottom:14px;
+    }
+
+    .p-desc-text{
+      margin:0;
+      color:#d0d0d0;
+      font-size:16px;
+      line-height:1.7;
+      max-width:560px;
+    }
+
+    .p-feedback{
+      margin:0;
+      color:var(--white);
+      font-size:20px;
+      line-height:1.4;
+      font-weight:600;
+    }
+
+    .p-feedback-author{
+      margin-top:18px;
+      color:#777;
+      font-size:11px;
+    }
+
+    .p-gallery{
+      display:flex;
+      flex-direction:column;
+      gap:28px;
+      padding:70px 0 90px;
+    }
+
+    .p-gallery figure{
+      margin:0;
+      overflow:hidden;
+      background:#111;
+      border-radius:4px;
+    }
+
+    .p-gallery img{
+      display:block;
+      width:100%;
+      height:auto;
+      opacity:0;
+      transform:translateY(55px);
+      transition:
+        opacity .8s cubic-bezier(.2,.7,.2,1),
+        transform .8s cubic-bezier(.2,.7,.2,1);
+    }
+
+    .p-gallery img.visible{
+      opacity:1;
+      transform:translateY(0);
+    }
+
+    .p-nav-projects{
+      display:flex;
+      justify-content:space-between;
+      gap:30px;
+      padding:30px 0 70px;
+      border-top:1px solid var(--line);
+      font-size:13px;
+      text-transform:uppercase;
+      letter-spacing:.05em;
+    }
+
+    .p-nav-link{transition:color .25s ease}
+    .p-nav-link:hover{color:var(--orange)}
+
+    .loading{
+      min-height:60vh;
+      display:grid;
+      place-items:center;
+      color:#777;
+    }
+
+    .project-error{
+      padding:120px 0;
+    }
+
+    .project-error h1{font-size:48px;margin:0 0 15px}
+    .project-error p{color:#888}
+
+    footer{
+      border-top:1px solid var(--line);
+      padding:30px 0;
+      color:#666;
+      font-size:11px;
+    }
+
+    @media(max-width:700px){
+      .wrap{width:min(100% - 32px,1120px)}
+      .nav{height:62px}
+      .nav-back{font-size:10px}
+      .p-hero{padding:70px 0 30px}
+      .p-body{grid-template-columns:1fr;gap:38px}
+      .p-nav-projects{flex-direction:column}
+      .p-info{gap:20px}
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="nav">
+    <div class="wrap">
+      <a href="index.html" class="nav-logo">
+        <span class="nav-mark">N</span>
+        <span>VTD DESIGN</span>
+      </a>
+      <a href="index.html#trabalhos" class="nav-back">← Todos os Trabalhos</a>
+    </div>
+  </nav>
+
+  <main id="projectRoot">
+    <div class="loading">Carregando projeto…</div>
+  </main>
+
+  <footer>
+    <div class="wrap">© 2026 VTD DESIGN.</div>
+  </footer>
+
+  <script>
+    class ProjectLoader {
+      constructor(){
+        this.projects=[];
+        this.currentProject=null;
+      }
+
+      async loadProjects(){
+        const response=await fetch('portfolio.json?cache=' + Date.now());
+        if(!response.ok) throw new Error('Não foi possível carregar portfolio.json');
+        this.projects=await response.json();
+      }
+
+      getProjectId(){
+        return new URLSearchParams(window.location.search).get('id');
+      }
+
+      getCurrentProject(){
+        const id=this.getProjectId();
+        return this.projects.find(project=>project.id===id);
+      }
+
+      createImage(src,alt){
+        const img=document.createElement('img');
+        img.src=src;
+        img.alt=alt;
+        img.loading='lazy';
+        img.addEventListener('error',()=>{
+          console.error('Imagem não encontrada:',src);
+          img.parentElement?.remove();
+        });
+        return img;
+      }
+
+      renderProject(project){
+        const root=document.getElementById('projectRoot');
+
+        document.title=project.titulo + ' — VTD DESIGN';
+
+        const hero=document.createElement('section');
+        hero.className='p-hero';
+        hero.innerHTML=`
+          <div class="wrap">
+            <div class="p-meta">${project.categoria || ''}</div>
+            <h1>${project.titulo || ''}</h1>
+            <div class="p-info">
+              <span>${project.cliente || ''}</span>
+              <span>${project.ano || ''}</span>
+            </div>
+          </div>
+        `;
+
+        const wrap=document.createElement('div');
+        wrap.className='wrap';
+
+        if(project.cover){
+          const cover=document.createElement('div');
+          cover.className='p-cover';
+          cover.appendChild(this.createImage(project.cover,project.titulo || 'Capa do projeto'));
+          wrap.appendChild(cover);
+        }
+
+        const body=document.createElement('section');
+        body.className='p-body';
+
+        const description=document.createElement('div');
+        description.innerHTML=`
+          <span class="p-desc-title">Sobre o projeto</span>
+          <p class="p-desc-text">${project.descricao || ''}</p>
+        `;
+        body.appendChild(description);
+
+        if(project.feedback){
+          const feedback=document.createElement('div');
+          feedback.innerHTML=`
+            <span class="p-desc-title">Feedback</span>
+            <p class="p-feedback">“${project.feedback}”</p>
+            <div class="p-feedback-author">
+              ${project.feedbackAutor || ''}${project.feedbackCargo ? ' — ' + project.feedbackCargo : ''}
+            </div>
+          `;
+          body.appendChild(feedback);
+        } else if(project.feedbackAutor){
+          const context=document.createElement('div');
+          context.innerHTML=`
+            <span class="p-desc-title">Contexto</span>
+            <p class="p-feedback">${project.feedbackAutor}</p>
+            <div class="p-feedback-author">${project.feedbackCargo || ''}</div>
+          `;
+          body.appendChild(context);
+        }
+
+        wrap.appendChild(body);
+
+        if(Array.isArray(project.gallery) && project.gallery.length){
+          const gallery=document.createElement('section');
+          gallery.className='p-gallery';
+
+          project.gallery.forEach((src,index)=>{
+            const figure=document.createElement('figure');
+            figure.appendChild(
+              this.createImage(src,`${project.titulo || 'Projeto'} — imagem ${index+1}`)
+            );
+            gallery.appendChild(figure);
+          });
+
+          wrap.appendChild(gallery);
+        }
+
+        const index=this.projects.findIndex(p=>p.id===project.id);
+        const next=this.projects[(index+1)%this.projects.length];
+
+        const nav=document.createElement('nav');
+        nav.className='p-nav-projects';
+        nav.innerHTML=`
+          <a class="p-nav-link" href="index.html#trabalhos">← Todos os trabalhos</a>
+          ${next ? `<a class="p-nav-link" href="project.html?id=${encodeURIComponent(next.id)}">Próximo: ${next.titulo} →</a>` : ''}
+        `;
+        wrap.appendChild(nav);
+
+        root.replaceChildren(hero,wrap);
+
+        this.initScrollAnimations(root);
+      }
+
+      initScrollAnimations(root){
+        const images=root.querySelectorAll('.p-gallery img');
+
+        if(!('IntersectionObserver' in window)){
+          images.forEach(img=>img.classList.add('visible'));
+          return;
+        }
+
+        const observer=new IntersectionObserver(entries=>{
+          entries.forEach(entry=>{
+            if(entry.isIntersecting){
+              entry.target.classList.add('visible');
+              observer.unobserve(entry.target);
+            }
+          });
+        },{threshold:.12});
+
+        images.forEach(img=>observer.observe(img));
+      }
+
+      showError(message){
+        document.getElementById('projectRoot').innerHTML=`
+          <div class="wrap project-error">
+            <h1>Projeto não encontrado</h1>
+            <p>${message}</p>
+          </div>
+        `;
+      }
+
+      async initialize(){
+        try{
+          await this.loadProjects();
+          const project=this.getCurrentProject();
+
+          if(!project){
+            this.showError('O ID deste projeto não existe no portfolio.json.');
+            return;
+          }
+
+          this.renderProject(project);
+        }catch(error){
+          console.error(error);
+          this.showError('Erro ao carregar o portfolio.json. Verifique se o arquivo está na raiz do projeto.');
+        }
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded',()=>{
+      new ProjectLoader().initialize();
+    });
+  </script>
+</body>
+</html>
