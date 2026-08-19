@@ -1,0 +1,311 @@
+[
+  {
+    "id": "johnwick",
+    "titulo": "Rebranding John Wick",
+    "categoria": "Estudos de Design",
+    "ano": "2025",
+    "cliente": "Unicesumar",
+    "descricao": "Projeto acadêmico de rebranding inspirado no filme John Wick, explorando conceito visual, novo pôster, aplicações gráficas, paleta de cores, moodboard e defesa das decisões de design.",
+    "feedback": "Projeto acadêmico desenvolvido para demonstrar domínio de conceito, pesquisa visual, construção de identidade e aplicação gráfica.",
+    "feedbackAutor": "Projeto Acadêmico",
+    "feedbackCargo": "Unicesumar",
+    "thumb": "projects/johnwick/cover.jpg",
+    "cover": "projects/johnwick/cover.jpg",
+    "gallery": [
+      "projects/johnwick/gallery-1.jpg",
+      "projects/johnwick/gallery-2.jpg",
+      "projects/johnwick/gallery-3.jpg",
+      "projects/johnwick/gallery-4.jpg",
+      "projects/johnwick/gallery-5.jpg",
+      "projects/johnwick/gallery-6.jpg"
+    ]
+  },
+  {
+    "id": "pagfacilitado",
+    "titulo": "Pag Facilitado",
+    "categoria": "Estudos de Design",
+    "ano": "2026",
+    "cliente": "Empreendedor local",
+    "descricao": "Projeto acadêmico de identidade visual desenvolvido a partir de um negócio local, envolvendo a criação da marca desde o início, desenvolvimento do logotipo e construção de uma identidade visual coerente.",
+    "feedback": "Projeto prático desenvolvido para exercitar o processo completo de criação de uma identidade visual para um negócio real.",
+    "feedbackAutor": "Projeto Acadêmico",
+    "feedbackCargo": "Unicesumar",
+    "thumb": "projects/pagfacilitado/cover.jpg",
+    "cover": "projects/pagfacilitado/cover.jpg",
+    "gallery": [
+      "projects/pagfacilitado/gallery-1.jpg",
+      "projects/pagfacilitado/gallery-2.jpg",
+      "projects/pagfacilitado/gallery-3.jpg",
+      "projects/pagfacilitado/gallery-4.jpg",
+      "projects/pagfacilitado/gallery-5.jpg",
+      "projects/pagfacilitado/gallery-6.jpg",
+      "projects/pagfacilitado/gallery-7.jpg"
+    ]
+  },
+  {
+    "id": "storyinstagram",
+    "titulo": "Story Experimental — Instagram",
+    "categoria": "Experimentos Visuais",
+    "ano": "2025",
+    "cliente": "Projeto autoral",
+    "descricao": "Estudo visual desenvolvido como exercício de composição para uma futura aplicação no Instagram, explorando hierarquia, tipografia e construção de uma peça de impacto em formato vertical.",
+    "feedback": "Exercício experimental voltado ao desenvolvimento de composição e linguagem visual para redes sociais.",
+    "feedbackAutor": "Projeto Autoral",
+    "feedbackCargo": "Estudo de Design",
+    "thumb": "projects/storyinstagram/cover.jpg",
+    "cover": "projects/storyinstagram/cover.jpg",
+    "gallery": [
+      "projects/storyinstagram/gallery-1.jpg"
+    ]
+  },
+  {
+    "id": "storyaula",
+    "titulo": "Exercício de Story — Aula Prática",
+    "categoria": "Experimentos Visuais",
+    "ano": "2025",
+    "cliente": "Projeto acadêmico",
+    "descricao": "Exercício prático desenvolvido durante uma atividade de aprendizado e troca de conhecimento, explorando a construção de uma peça para Stories e a aplicação de fundamentos de composição e comunicação visual.",
+    "feedback": "Exercício de prática utilizado para desenvolver repertório e testar diferentes soluções visuais em formato vertical.",
+    "feedbackAutor": "Estudo Prático",
+    "feedbackCargo": "Design Gráfico",
+    "thumb": "projects/storyaula/cover.jpg",
+    "cover": "projects/storyaula/cover.jpg",
+    "gallery": [
+      "projects/storyaula/gallery-1.jpg"
+    ]
+  },
+  {
+    "id": "storydj",
+    "titulo": "Story para DJ",
+    "categoria": "Experimentos Visuais",
+    "ano": "2025",
+    "cliente": "DJ local",
+    "descricao": "Peça desenvolvida para comunicação de um DJ, explorando uma linguagem visual mais intensa e alinhada à estética e à personalidade do artista.",
+    "feedback": "Ficou muito no meu estilo e na minha vibe. Gostei bastante do resultado.",
+    "feedbackAutor": "DJ local",
+    "feedbackCargo": "Cliente",
+    "thumb": "projects/storydj/cover.jpg",
+    "cover": "projects/storydj/cover.jpg",
+    "gallery": [
+      "projects/storydj/gallery-1.jpg"
+    ]
+  },
+  {
+    "id": "rastrec",
+    "titulo": "Flyer Animado — Rastrec",
+    "categoria": "Motion 2D",
+    "ano": "2026",
+    "cliente": "Rastrec",
+    "descricao": "Flyer animado desenvolvido para exibição em telas de grande formato, apresentando a comunicação da Rastrec de forma dinâmica para divulgação de serviços de rastreamento automotivo.",
+    "feedback": "A animação ficou muito boa e conseguiu transformar a comunicação da empresa em uma peça muito mais dinâmica para as telas.",
+    "feedbackAutor": "Rastrec",
+    "feedbackCargo": "Cliente",
+    "thumb": "projects/rastrec/cover.jpg",
+    "cover": "projects/rastrec/cover.jpg",
+    "gallery": [
+      "projects/rastrec/gallery-1.jpg"
+    ]
+  },
+  {
+    "id": "storiespiscineiro",
+    "titulo": "Stories Piscineiro",
+    "categoria": "Motion 2D",
+    "ano": "2024",
+    "cliente": "Piscineiro local",
+    "descricao": "Vídeo promocional em formato vertical desenvolvido para divulgação de serviços de piscina, utilizando Motion Design 2D para organizar informações e criar ritmo para redes sociais.",
+    "feedback": "A peça conseguiu deixar a divulgação mais dinâmica e fácil de consumir no formato de Stories.",
+    "feedbackAutor": "Piscineiro",
+    "feedbackCargo": "Cliente",
+    "thumb": "projects/storiespiscineiro/cover.jpg",
+    "cover": "projects/storiespiscineiro/cover.jpg",
+    "gallery": [
+      "projects/storiespiscineiro/gallery-1.jpg"
+    ]
+  },
+  {
+    "id": "atiarquitetura",
+    "titulo": "ATI Arquitetura — Novo Site",
+    "categoria": "Motion 2D",
+    "ano": "2026",
+    "cliente": "ATI Arquitetura",
+    "descricao": "Vídeo promocional criado para divulgar o lançamento de um novo site da ATI Arquitetura, utilizando Motion Design 2D para apresentar a novidade de forma objetiva e visualmente atraente.",
+    "feedback": "Uma peça criada para transformar o lançamento do novo site em uma comunicação visual mais interessante para as redes.",
+    "feedbackAutor": "ATI Arquitetura",
+    "feedbackCargo": "Cliente",
+    "thumb": "projects/atiarquitetura/cover.jpg",
+    "cover": "projects/atiarquitetura/cover.jpg",
+    "gallery": [
+      "projects/atiarquitetura/gallery-1.jpg"
+    ]
+  },
+  {
+    "id": "videocomercialpiscineiro",
+    "titulo": "Vídeo Comercial — Piscineiro",
+    "categoria": "Motion 2D",
+    "ano": "2024",
+    "cliente": "Piscineiro local",
+    "descricao": "Vídeo comercial desenvolvido para uma landing page com o objetivo de apresentar e promover um e-book, combinando Motion Design, ritmo audiovisual e organização das informações.",
+    "feedback": "O vídeo trouxe uma apresentação mais profissional para o e-book e ajudou a transformar a página em uma comunicação mais completa.",
+    "feedbackAutor": "Piscineiro",
+    "feedbackCargo": "Cliente",
+    "thumb": "projects/videocomercialpiscineiro/cover.jpg",
+    "cover": "projects/videocomercialpiscineiro/cover.jpg",
+    "gallery": [
+      "projects/videocomercialpiscineiro/gallery-1.jpg"
+    ]
+  },
+  {
+    "id": "lojageekcopa",
+    "titulo": "Campanha de Copa — Loja Geek",
+    "categoria": "Motion 2D",
+    "ano": "2026",
+    "cliente": "Loja de camisetas Geek",
+    "descricao": "Vídeo especial desenvolvido para uma loja de camisetas geek durante a Copa de 2026, combinando referências de anime, linguagem esportiva e Motion Design para criar uma peça promocional.",
+    "feedback": "Uma campanha experimental que combina o universo geek com a linguagem visual da Copa para criar uma peça promocional diferente.",
+    "feedbackAutor": "Projeto Comercial",
+    "feedbackCargo": "Loja Geek",
+    "thumb": "projects/lojageekcopa/cover.jpg",
+    "cover": "projects/lojageekcopa/cover.jpg",
+    "gallery": [
+      "projects/lojageekcopa/gallery-1.jpg"
+    ]
+  },
+  {
+    "id": "aplicacao3dcenario",
+    "titulo": "Aplicação 3D em Cenário",
+    "categoria": "Motion 3D",
+    "ano": "2024",
+    "cliente": "Projeto autoral",
+    "descricao": "Estudo experimental de integração 3D em vídeo, inserindo uma construção antiga e destruída em uma cena de campo aberto. Desenvolvido de forma autodidata para estudar composição e integração de elementos 3D em footage real.",
+    "feedback": "Estudo autoral desenvolvido para testar integração de objetos 3D em cenas reais e ampliar o domínio de composição e efeitos visuais.",
+    "feedbackAutor": "Projeto Autoral",
+    "feedbackCargo": "Estudo de Motion 3D",
+    "thumb": "projects/aplicacao3dcenario/cover.jpg",
+    "cover": "projects/aplicacao3dcenario/cover.jpg",
+    "gallery": [
+      "projects/aplicacao3dcenario/gallery-1.jpg"
+    ]
+  },
+  {
+    "id": "ambiencia3d",
+    "titulo": "Implementação de Ambiência 3D",
+    "categoria": "Motion 3D",
+    "ano": "2024",
+    "cliente": "Projeto autoral",
+    "descricao": "Estudo de integração de um caça inspirado em Star Wars em uma cena com uma pessoa correndo, investigando a relação entre movimento 3D, sincronização sonora e ambiência para tornar a inserção mais convincente.",
+    "feedback": "Estudo técnico voltado à integração entre movimento 3D, composição e desenho de som em uma mesma cena.",
+    "feedbackAutor": "Projeto Autoral",
+    "feedbackCargo": "Estudo de Motion 3D",
+    "thumb": "projects/ambiencia3d/cover.jpg",
+    "cover": "projects/ambiencia3d/cover.jpg",
+    "gallery": [
+      "projects/ambiencia3d/gallery-1.jpg"
+    ]
+  },
+  {
+    "id": "fisica3d",
+    "titulo": "Teste de Implementação de Física",
+    "categoria": "Motion 3D",
+    "ano": "2025",
+    "cliente": "Projeto autoral",
+    "descricao": "Estudo de física aplicada a uma cena 3D, utilizando um rádio que cai sobre um prédio e reage ao impacto com movimento e quique, além da integração de áudio reproduzido pelo próprio objeto.",
+    "feedback": "Teste desenvolvido para estudar comportamento físico, reação ao impacto e integração de elementos 3D com áudio.",
+    "feedbackAutor": "Projeto Autoral",
+    "feedbackCargo": "Estudo de Motion 3D",
+    "thumb": "projects/fisica3d/cover.jpg",
+    "cover": "projects/fisica3d/cover.jpg",
+    "gallery": [
+      "projects/fisica3d/gallery-1.jpg"
+    ]
+  },
+  {
+    "id": "luzesshaders",
+    "titulo": "Teste de Luzes e Shaders",
+    "categoria": "Motion 3D",
+    "ano": "2024",
+    "cliente": "Projeto autoral",
+    "descricao": "Estudo de iluminação e shaders para integração de uma grande estátua 3D em uma cena urbana, buscando reproduzir direção, intensidade e coloração da luz do ambiente.",
+    "feedback": "Estudo focado em iluminação, shaders e integração visual de elementos 3D com footage real.",
+    "feedbackAutor": "Projeto Autoral",
+    "feedbackCargo": "Estudo de Motion 3D",
+    "thumb": "projects/luzesshaders/cover.jpg",
+    "cover": "projects/luzesshaders/cover.jpg",
+    "gallery": [
+      "projects/luzesshaders/gallery-1.jpg"
+    ]
+  },
+  {
+    "id": "tracking3dcajazeiras",
+    "titulo": "3D Tracking — Cajazeiras",
+    "categoria": "Motion 3D",
+    "ano": "2024",
+    "cliente": "Projeto autoral",
+    "descricao": "Estudo experimental de 3D tracking realizado sobre imagens aéreas de Cajazeiras, com autorização do responsável pela gravação, inserindo textos e informações acompanhando a perspectiva dos prédios e o movimento do drone.",
+    "feedback": "Estudo autoral desenvolvido para praticar tracking 3D, integração tipográfica e composição de informações sobre imagens aéreas.",
+    "feedbackAutor": "Projeto Autoral",
+    "feedbackCargo": "Estudo de Motion 3D",
+    "thumb": "projects/tracking3dcajazeiras/cover.jpg",
+    "cover": "projects/tracking3dcajazeiras/cover.jpg",
+    "gallery": [
+      "projects/tracking3dcajazeiras/gallery-1.jpg"
+    ]
+  },
+  {
+    "id": "postsexperimentais",
+    "titulo": "Posts Experimentais",
+    "categoria": "Experimentos Visuais",
+    "ano": "2024",
+    "cliente": "Projeto autoral",
+    "descricao": "Seleção de experimentos visuais desenvolvidos durante os primeiros estudos de Design, reunindo exercícios de composição, tipografia e criação para redes sociais e registrando uma fase de aprendizado e exploração gráfica.",
+    "feedback": "Uma seleção de estudos iniciais que registra a evolução técnica e visual durante o processo de aprendizado em Design.",
+    "feedbackAutor": "Projeto Autoral",
+    "feedbackCargo": "Estudos de Design",
+    "thumb": "projects/postsexperimentais/cover.jpg",
+    "cover": "projects/postsexperimentais/cover.jpg",
+    "gallery": [
+      "projects/postsexperimentais/gallery-1.jpg",
+      "projects/postsexperimentais/gallery-2.jpg",
+      "projects/postsexperimentais/gallery-3.jpg",
+      "projects/postsexperimentais/gallery-4.jpg"
+    ]
+  },
+  {
+    "id": "sdagence",
+    "titulo": "SD Agence",
+    "categoria": "Design para Redes Sociais",
+    "ano": "2025",
+    "cliente": "SD Agence",
+    "descricao": "Seleção de peças desenvolvidas para uma agência durante um período de colaboração, explorando uma tendência visual de personagens reinterpretados em estética inspirada na Disney. O conjunto reúne cinco artes com maior preocupação de coerência visual, composição, efeitos e acabamento.",
+    "feedback": "Conjunto de peças produzido durante uma colaboração, explorando uma linguagem visual consistente e aplicações para redes sociais.",
+    "feedbackAutor": "SD Agence",
+    "feedbackCargo": "Projeto de Colaboração",
+    "thumb": "projects/sdagence/cover.jpg",
+    "cover": "projects/sdagence/cover.jpg",
+    "gallery": [
+      "projects/sdagence/gallery-1.jpg",
+      "projects/sdagence/gallery-2.jpg",
+      "projects/sdagence/gallery-3.jpg",
+      "projects/sdagence/gallery-4.jpg",
+      "projects/sdagence/gallery-5.jpg"
+    ]
+  },
+  {
+    "id": "sarasheila",
+    "titulo": "Comunicação para Redes — Sara Sheila",
+    "categoria": "Design para Redes Sociais",
+    "ano": "2024",
+    "cliente": "Sara Sheila",
+    "descricao": "Seleção de peças desenvolvidas para comunicação no Instagram de uma vereadora local, trabalhando composição, hierarquia de informações e adaptação das mensagens para o formato das redes sociais.",
+    "feedback": "Trabalho desenvolvido para comunicação digital, com foco em organização visual e adaptação das mensagens para o Instagram.",
+    "feedbackAutor": "Sara Sheila",
+    "feedbackCargo": "Projeto para Redes Sociais",
+    "thumb": "projects/sarasheila/cover.jpg",
+    "cover": "projects/sarasheila/cover.jpg",
+    "gallery": [
+      "projects/sarasheila/gallery-1.jpg",
+      "projects/sarasheila/gallery-2.jpg",
+      "projects/sarasheila/gallery-3.jpg",
+      "projects/sarasheila/gallery-4.jpg"
+    ]
+  }
+]
